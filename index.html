@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link href="styles.css" rel="stylesheet"/> 
+       <script src="tictactoe.js" defer></script>
+    </head>
+    <body>
+        <section class="tictactoe">
+            <header>
+                <h3 id="currentPlayer"></h3>
+            </header>
+            <section class="playarea">
+                <input id="id0" onclick="onPlay(0);evaluateSuccess()" readonly/>
+                <input id="id1" onclick="onPlay(1);evaluateSuccess()" readonly/>
+                <input id="id2" onclick="onPlay(2);evaluateSuccess()" readonly/>
+                <input id="id3" onclick="onPlay(3);evaluateSuccess()" readonly/>
+                <input id="id4" onclick="onPlay(4);evaluateSuccess()" readonly/>
+                <input id="id5" onclick="onPlay(5);evaluateSuccess()" readonly/>
+                <input id="id6" onclick="onPlay(6);evaluateSuccess()" readonly/>
+                <input id="id7" onclick="onPlay(7);evaluateSuccess()" readonly/>
+                <input id="id8" onclick="onPlay(8);evaluateSuccess()" readonly/>
+            </section>
+            <button class="reset" onclick="reset()">Reset</button>
+        </section>
+    </body>
+</html>
